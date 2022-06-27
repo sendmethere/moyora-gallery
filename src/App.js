@@ -21,6 +21,9 @@ import Mypage from './pages/Mypage';
 
 import NotFound from './pages/NotFound';
 
+import "./bootstrap.min.css";
+import "./detail.css";
+
 const history = createBrowserHistory();
 
 const App = () => {
@@ -28,6 +31,7 @@ const App = () => {
     <div className='App'>
         <Header/>
           <Routes>
+            <Route exact path="" element={Home()} /> // 메인페이지
             <Route exact path="/" element={Home()} /> // 메인페이지
 
             <Route path="/gallery/:id" element={Gallery()} /> // 갤러리 보기

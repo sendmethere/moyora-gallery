@@ -1,0 +1,18 @@
+/* fonts */
+@font-face {
+    font-family: "DungGeunMo";
+    font-style: normal;
+    src: url("./assets/DungGeunMo.woff2") format("woff2");
+    src: url("./assets/DungGeunMo.woff") format("woff");
+    src: url("./assets/DungGeunMo.eot") format("eot");
+}
+
+body {
+    font-family: "DungGeunMo";
+    background-color: #F4F5F8;
+}
+
+.square {
+    border-radius: 0% !important;
+}
+
